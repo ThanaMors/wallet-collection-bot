@@ -1,0 +1,16 @@
+{
+  "name": "discord-bot",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "run": "pm2 start ecosystem.config.js --wait-ready --listen-timeout 10000"
+  },
+  "dependencies": {
+    "discord.js": "^14.6.0",
+    "dotenv": "^16.0.3",
+    "firebase": "^9.14.0",
+    "pm2": "^5.2.2"
+  },
+  "devDependencies": {}
+}
