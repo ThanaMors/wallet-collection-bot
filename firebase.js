@@ -2,15 +2,7 @@ const { initializeApp } = require("firebase/app");
 const { getDatabase, ref, set, get, child } = require("firebase/database");
 
 const firebaseConfig = {
-  apiKey: "AIzaSyCJPbUfrnRQygkNARKtgipNu1UzuVEOSNs",
-  authDomain: "whitelist-discord-bot-16236.firebaseapp.com",
-  databaseURL:
-    "https://whitelist-discord-bot-16236-default-rtdb.firebaseio.com",
-  projectId: "whitelist-discord-bot-16236",
-  storageBucket: "whitelist-discord-bot-16236.appspot.com",
-  messagingSenderId: "448610442609",
-  appId: "1:448610442609:web:4204cc92d293a58fa32ad0",
-  measurementId: "G-7KNHDW5YRR",
+  //add firebase config here
 };
 
 const app = initializeApp(firebaseConfig);
